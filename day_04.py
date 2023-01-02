@@ -17,8 +17,10 @@ if you don't understand it all quite yet!
 
 Note: Do not remove or alter the stub code in the editor.
 """
+
+
 class Person:
-    def __init__(self,initialAge):
+    def __init__(self, initialAge):
         if initialAge < 0:
             print("Age is not valid, setting age to 0.")
             self.age = 0
@@ -26,17 +28,16 @@ class Person:
             self.age = initialAge
 
     def amIOld(self):
-        # Do some computations in here and print out the correct statement to the console
         if self.age < 13:
             print("You are young.")
-        elif 13 <= self.age and self.age < 18:
+        elif 13 <= self.age < 18:
             print("You are a teenager.")
         else:
             print("You are old.")
 
     def yearPasses(self):
-        # Increment the age of the person in here
         self.age = self.age + 1
+
 
 t = int(input())
 for i in range(0, t):
