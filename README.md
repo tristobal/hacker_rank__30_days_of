@@ -1,5 +1,5 @@
 # Hacker Rank
-## 30 Days of Code
+## 30 Days of Code (Python)
 
 
 * [Day 00: Hello, World.](day_00.py)
