@@ -23,7 +23,7 @@
 * [Day 18: Queues and Stacks](day_18.py)
 * [Day 19: Interfaces](day_19.py)
 * [Day 20: Sorting](day_20.py)
-* [Day 21: Generics](day_21.py)
+* [Day 21: Generics](Generics.java)
 * [Day 22: Binary Search Trees](day_22.py)
 * [Day 23: BST Level-Order Traversal](day_23.py)
 * [Day 24: More Linked Lists](day_24.py)
