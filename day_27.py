@@ -28,6 +28,7 @@ class TestDataExactlyTwoDifferentMinimums:
     def get_expected_result(cls):
         return 3
 
+
 def minimum_index(seq):
     if len(seq) == 0:
         raise ValueError("Cannot get the minimum value index from an empty sequence")

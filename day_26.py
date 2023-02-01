@@ -17,14 +17,11 @@ YEAR = 2
 MONTH = 1
 DAY = 0
 
-txt_date_expected = "9 6 2015"  # input()
+txt_date_expected = input()
 array_date_expected = list(map(int, txt_date_expected.split()))
 
-txt_date_actual = "6 6 2015"  # input()
+txt_date_actual = input()
 array_date_actual = list(map(int, txt_date_actual.split()))
-
-print(f"day = {array_date_expected[0]}, month = {array_date_expected[1]}, year = {array_date_expected[2]} (date returned)")
-print(f"day = {array_date_actual[0]}, month = {array_date_actual[1]}, year = {array_date_actual[2]} (date due)")
 
 fine = 0
 
